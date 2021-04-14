@@ -1,5 +1,7 @@
 package homework.ch11_13.p3;
 
+import java.sql.Struct;
+
 public class Student extends Person {
     private String classNo;
     private String department;
@@ -42,11 +44,26 @@ public class Student extends Person {
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
         Student student = (Student) o;
-        return (this.studentId==student.studentId) && this.department.equals(student.department) && this.classNo.equals(student.classNo);
+        if(student.studentId != this.studentId) return false;
+        boolean th1 = false, th2 = false;
+        if(student.classNo == null || this.classNo == null){
+            if(student.classNo == null && this.classNo == null) th1 = true;
+        }else {
+            th1 = this.classNo.equals(student.classNo);
+        }
+        if(student.department == null || this.department == null){
+            if(student.department == null && this.department == null) th2 = true;
+        }else {
+            th2 = this.department.equals(student.department);
+        }
+        return th1 && th2;
     }
 
     @Override
     public Object clone() throws CloneNotSupportedException {
-        return super.clone();
+        Student clone = (Student) super.clone();
+        clone.department = new String(this.department);
+        clone.classNo = new String(this.classNo);
+        return clone;
     }
 }

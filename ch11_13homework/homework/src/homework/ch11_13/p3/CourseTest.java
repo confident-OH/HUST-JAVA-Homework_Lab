@@ -4,7 +4,7 @@ public class CourseTest {
     public static void main(String[] argv) throws CloneNotSupportedException{
         Person teacher1 = new Faculty("Da luobo", 44, 233333, "professor", "confidentoh@qq.com");
         System.out.println(teacher1.toString());
-        Person teacher2 = new Faculty("Gu xiwu", 55, 6666666, "coprofessor", "ddd@qq.com");
+        Person teacher2 = new Faculty("Gu xiwu", 44, 6666666, "coprofessor", "ddd@qq.com");
         System.out.println(teacher2.toString());
         Person student1 = new Student("Zeng Yangqing", 20, 201811111, "computer science", "ACM1801");
         System.out.println(student1.toString());

@@ -1,22 +1,18 @@
 package homework.ch11_13.p3;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
+import java.util.Objects;
 
 public class Course implements Cloneable{
     private String courseName;
     private List<Person> students;
     private Person teacher;
-    public Course(){students = new ArrayList<Person>();}
-    public Course(String _courseName, Person _teacher){
+    public Course(){students = new ArrayList<Person>(); teacher = new Faculty();}
+    public Course(String _courseName, Person _teacher) throws CloneNotSupportedException{
         students = new ArrayList<Person>();
         this.courseName = _courseName;
-        try{
-            this.teacher = (Person) _teacher.clone();
-        }catch (CloneNotSupportedException e){
-            System.out.println("Error: faculty cannot be cloned!");
-        }
+        this.teacher = (Faculty) _teacher.clone();
     }
 
     public void register(Person s){
@@ -51,28 +47,29 @@ public class Course implements Cloneable{
     @Override
     public Object clone() throws CloneNotSupportedException{
         Course clone = (Course) super.clone();
-        List<Person> item = new LinkedList<Person>();
-        clone.students = new ArrayList<Person>(students);
+        clone.students = new ArrayList<Person>();
+        for(int i = 0; i<getNumberOfStudent(); i++){
+            clone.students.add((Student)this.students.get(i).clone());
+        }
+        clone.teacher = (Faculty) this.teacher.clone();
+        clone.courseName = new String(this.courseName);
         return clone;
     }
 
     @Override
-    public boolean equals(Object o){
-        if(this == o) return true;
-        if(o == null || getClass() != o.getClass()) return false;
-        if(!super.equals(o)) return false;
-        Course c = (Course) o;
-        List<Person> test = new ArrayList<Person>();
-        if(!c.getTeacher().equals(this.teacher)) return false;
-        if(!c.courseName.equals(this.courseName)) return false;
-        if(c.getNumberOfStudent() != this.getNumberOfStudent()) return false;
-        for(Person st1:c.students){
-            if(!this.students.contains(st1) || test.contains(st1) || (!(st1 instanceof Student))){
-                return false;
-            }
-            test.add(st1);
-        }
-        return true;
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Course course = (Course) o;
+        return Objects.equals(courseName, course.courseName) &&
+                students.containsAll(course.students)&&
+                course.students.containsAll(this.students) &&
+                Objects.equals(teacher, course.teacher);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(courseName, students, teacher);
     }
 
     @Override
@@ -88,5 +85,4 @@ public class Course implements Cloneable{
         s = s + "\tTeacher: " + teacher.toString() + "\n}\n";
         return s;
     }
-
 }

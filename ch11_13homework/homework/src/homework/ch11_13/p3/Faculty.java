@@ -47,11 +47,26 @@ public class Faculty extends Person {
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
         Faculty faculty = (Faculty) o;
-        return facultyId == faculty.facultyId && title.equals(faculty.title) && email.equals(faculty.email);
+        if(faculty.facultyId != this.facultyId) return false;
+        boolean th1 = false, th2 = false;
+        if(this.email == null || faculty.email == null){
+            if(this.email == null && faculty.email == null) th1 = true;
+        }else{
+            th1 = this.email.equals(faculty.email);
+        }
+        if(this.title == null || faculty.title == null){
+            if(this.title == null && faculty.title == null) th2 = true;
+        }else {
+            th2 = this.title.equals(faculty.title);
+        }
+        return th1 && th2;
     }
 
     @Override
     public Object clone() throws CloneNotSupportedException {
-        return super.clone();
+        Faculty clone = (Faculty) super.clone();
+        clone.title = new String(this.title);
+        clone.email = new String(this.email);
+        return clone;
     }
 }

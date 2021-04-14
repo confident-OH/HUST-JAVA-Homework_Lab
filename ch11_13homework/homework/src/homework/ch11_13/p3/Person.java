@@ -31,15 +31,23 @@ public class Person implements Cloneable {
         return "name: " + this.name + ", age: " + this.age;
     }
 
+    /*
+     * remember the String maybe null
+     */
     @Override
     public boolean equals(Object obj){
         if(this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
-        return this.age == ((Person) obj).age && this.name.equals(((Person) obj).name);
+        Person o = (Person) obj;
+        if(o.name == null && this.name == null) return this.age == o.age;
+        if(o.name == null || this.name == null) return false;
+        return this.age == o.age && this.name.equals(o.name);
     }
 
     @Override
     public Object clone() throws CloneNotSupportedException{
-        return super.clone();
+        Person clone = (Person) super.clone();
+        clone.name = new String(this.name);
+        return clone;
     }
 }
