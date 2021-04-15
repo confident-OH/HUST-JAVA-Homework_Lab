@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [All Test Suite (0)]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CourseTest.java(failed)">
+  <test thread-count="5" name="D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CompositeComponentTest.java(failed)">
     <classes>
-      <class name="homework.ch11_13.CourseTest">
+      <class name="homework.ch11_13.CompositeComponentTest">
         <methods>
-          <include name="testTestEquals" invocation-numbers="3 5"/>
+          <include name="testGetPrice" invocation-numbers="1 2"/>
+          <include name="testCalcPrice" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- homework.ch11_13.CourseTest -->
+      </class> <!-- homework.ch11_13.CompositeComponentTest -->
     </classes>
-  </test> <!-- D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CourseTest.java(failed) -->
+  </test> <!-- D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CompositeComponentTest.java(failed) -->
 </suite> <!-- Failed suite [All Test Suite (0)] -->

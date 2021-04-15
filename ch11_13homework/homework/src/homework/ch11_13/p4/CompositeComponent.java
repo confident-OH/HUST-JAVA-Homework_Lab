@@ -16,7 +16,9 @@ public class CompositeComponent extends Component {
 
     @Override
     public void remove(Component component) throws UnsupportedOperationException {
-        if(childs!=null) childs.remove(component);
+        if(childs!=null){
+            childs.remove(component);
+        }
     }
 
     @Override
@@ -29,7 +31,7 @@ public class CompositeComponent extends Component {
     }
 
     @Override
-    public Iterator getIterator() {
+    public Iterator iterator() {
         return new CompositeIterator(childs);
     }
 

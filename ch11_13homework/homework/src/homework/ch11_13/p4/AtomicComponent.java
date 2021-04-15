@@ -1,8 +1,8 @@
 package homework.ch11_13.p4;
 
 public class AtomicComponent extends Component {
-    AtomicComponent() { }
-    AtomicComponent(int id, String name, double price){
+    public AtomicComponent() { }
+    public AtomicComponent(int id, String name, double price){
         super(id, name, price);
     }
 
@@ -22,7 +22,7 @@ public class AtomicComponent extends Component {
     }
 
     @Override
-    public Iterator getIterator() {
+    public Iterator iterator() {
         return new NullIterator();
     }
 }

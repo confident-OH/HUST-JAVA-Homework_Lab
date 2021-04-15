@@ -6,10 +6,9 @@ public class Test {
         Component computer = ComponentFactory.create();
         System.out.println("id: " + computer.getId() + ", name: " +
                 computer.getName() + ", price:" + computer.getPrice());
-        Iterator it = computer.getIterator(); // 首先得到迭代器
+        Iterator it = computer.iterator(); // get the iterator
         while (it.hasNext()){
             Component c = it.next();
-            //注意这里不能打印c.toString(), toString()方法会递归调用子组件的toString()
             System.out.println("id: " + c.getId() + ", name: " +
                     c.getName() + ", price:" + c.getPrice());
         }

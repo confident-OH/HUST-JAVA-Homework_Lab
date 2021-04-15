@@ -34,14 +34,14 @@ abstract public class Component{
     }
 
     public double getPrice() {
-        return price;
+        return this.calcPrice();
     }
 
     public String getName() {
         return name;
     }
 
-    public abstract Iterator getIterator();
+    public abstract Iterator iterator();
 
     public abstract void remove(Component component) throws UnsupportedOperationException;
 
