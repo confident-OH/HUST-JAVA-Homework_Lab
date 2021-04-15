@@ -1,6 +1,5 @@
 package homework.ch11_13.p4;
 
-import java.util.Iterator;
 import java.util.Objects;
 
 abstract public class Component{
@@ -16,7 +15,7 @@ abstract public class Component{
         price = _price;
     }
 
-    public abstract void add(Component component);
+    public abstract void add(Component component) throws UnsupportedOperationException;
 
     public abstract double calcPrice();
 
@@ -42,7 +41,7 @@ abstract public class Component{
         return name;
     }
 
-    public abstract Iterator<?> getIterator();
+    public abstract Iterator getIterator();
 
     public abstract void remove(Component component) throws UnsupportedOperationException;
 

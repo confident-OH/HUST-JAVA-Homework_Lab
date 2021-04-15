@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="66acc50f-1185-4f56-9a4f-16497f18b32d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ch11_13homework/homework/out/production/homework/homework/ch11_13/p4/AtomicComponent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch11_13homework/homework/out/production/homework/homework/ch11_13/p4/Component.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch11_13homework/homework/out/production/homework/homework/ch11_13/p4/ComponentFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch11_13homework/homework/out/production/homework/homework/ch11_13/p4/ComponentList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch11_13homework/homework/out/production/homework/homework/ch11_13/p4/CompositeComponent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch11_13homework/homework/out/production/homework/homework/ch11_13/p4/CompositeIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch11_13homework/homework/out/production/homework/homework/ch11_13/p4/Iterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch11_13homework/homework/out/production/homework/homework/ch11_13/p4/NullIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch11_13homework/homework/out/production/homework/homework/ch11_13/p4/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch11_13homework/homework/src/homework/ch11_13/p4/AtomicComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch11_13homework/homework/src/homework/ch11_13/p4/CompositeComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch11_13homework/第11-13章作业/第11-13章作业/~$1-13章编程题.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11_13homework/homework/out/production/homework/homework/ch11_13/p4/p4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11_13homework/homework/src/homework/ch11_13/p4/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch11_13homework/homework/src/homework/ch11_13/p4/Component.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11_13homework/homework/src/homework/ch11_13/p4/ComponentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch11_13homework/homework/src/homework/ch11_13/p4/ComponentFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11_13homework/homework/src/homework/ch11_13/p4/ComponentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch11_13homework/homework/src/homework/ch11_13/p4/ComponentList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11_13homework/homework/src/homework/ch11_13/p4/CompositeIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch11_13homework/homework/src/homework/ch11_13/p4/CompositeIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11_13homework/homework/src/homework/ch11_13/p4/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch11_13homework/homework/src/homework/ch11_13/p4/Iterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11_13homework/homework/src/homework/ch11_13/p4/NullIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch11_13homework/homework/src/homework/ch11_13/p4/NullIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11_13homework/homework/src/homework/ch11_13/p4/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch11_13homework/homework/src/homework/ch11_13/p4/Test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rCmnN1CiD0UjIPlUwCRxUlbL0c" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+  </component>
+</project>

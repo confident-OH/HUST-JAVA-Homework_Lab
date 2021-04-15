@@ -1,5 +1,6 @@
 package homework.ch11_13.p4;
 
-public class Iterator {
-    
+public interface Iterator{
+    boolean hasNext();
+    Component next();
 }
