@@ -6,7 +6,7 @@ rem 设置运行TestNG的依赖Jar包所在目录（当前目录的lib子目录）
 set LIB_DIR=.\lib
 
 rem 设置被测试类的目录（顶级包目录的父目录）
-set TO_BE_TEST_CLASSPAH=E:\学科资料\大3下\HUST_JAVA\Homework_And_Lab\ch11_13homework\homework\out\production\homework
+set TO_BE_TEST_CLASSPAH=.\betest
 
 rem 设置测试类的目录(顶级包目录的父目录）,为当前目录的test子目录
 set TEST_SUITE_CLASSPATH=.\test

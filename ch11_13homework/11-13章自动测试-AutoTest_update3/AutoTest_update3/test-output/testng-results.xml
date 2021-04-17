@@ -2,64 +2,48 @@
 <testng-results ignored="0" total="83" passed="83" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-15T13:26:20Z" name="All Test Suite" finished-at="2021-04-15T13:26:20Z" duration-ms="0">
+  <suite started-at="2021-04-17T02:37:59Z" name="All Test Suite" finished-at="2021-04-17T02:37:59Z" duration-ms="0">
     <groups>
     </groups>
   </suite> <!-- All Test Suite -->
-  <suite started-at="2021-04-15T13:26:20Z" name="All Test Suite (0)" finished-at="2021-04-15T13:26:20Z" duration-ms="106">
+  <suite started-at="2021-04-17T02:37:59Z" name="All Test Suite (0)" finished-at="2021-04-17T02:37:59Z" duration-ms="114">
     <groups>
     </groups>
-    <test started-at="2021-04-15T13:26:20Z" name="D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/PersonTest.java" finished-at="2021-04-15T13:26:20Z" duration-ms="25">
+    <test started-at="2021-04-17T02:37:59Z" name="D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/PersonTest.java" finished-at="2021-04-17T02:37:59Z" duration-ms="26">
       <class name="homework.ch11_13.PersonTest">
-        <test-method signature="testGetName()[pri:0, instance:homework.ch11_13.PersonTest@6043cd28]" started-at="2021-04-15T13:26:20Z" name="testGetName" finished-at="2021-04-15T13:26:20Z" duration-ms="5" status="PASS">
+        <test-method signature="testGetName()[pri:0, instance:homework.ch11_13.PersonTest@6043cd28]" started-at="2021-04-17T02:37:59Z" name="testGetName" finished-at="2021-04-17T02:37:59Z" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetName -->
-        <test-method signature="testSetName()[pri:0, instance:homework.ch11_13.PersonTest@6043cd28]" started-at="2021-04-15T13:26:20Z" name="testSetName" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSetName -->
-        <test-method signature="testSetAge()[pri:0, instance:homework.ch11_13.PersonTest@6043cd28]" started-at="2021-04-15T13:26:20Z" name="testSetAge" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSetAge -->
-        <test-method signature="testTestToString()[pri:0, instance:homework.ch11_13.PersonTest@6043cd28]" started-at="2021-04-15T13:26:20Z" name="testTestToString" finished-at="2021-04-15T13:26:20Z" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTestToString -->
-        <test-method signature="testGetAge()[pri:0, instance:homework.ch11_13.PersonTest@6043cd28]" started-at="2021-04-15T13:26:20Z" name="testGetAge" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testGetAge()[pri:0, instance:homework.ch11_13.PersonTest@6043cd28]" started-at="2021-04-17T02:37:59Z" name="testGetAge" finished-at="2021-04-17T02:37:59Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAge -->
-        <test-method signature="testTestClone()[pri:0, instance:homework.ch11_13.PersonTest@6043cd28]" started-at="2021-04-15T13:26:20Z" name="testTestClone" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testSetName()[pri:0, instance:homework.ch11_13.PersonTest@6043cd28]" started-at="2021-04-17T02:37:59Z" name="testSetName" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetName -->
+        <test-method signature="testSetAge()[pri:0, instance:homework.ch11_13.PersonTest@6043cd28]" started-at="2021-04-17T02:37:59Z" name="testSetAge" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetAge -->
+        <test-method signature="testTestToString()[pri:0, instance:homework.ch11_13.PersonTest@6043cd28]" started-at="2021-04-17T02:37:59Z" name="testTestToString" finished-at="2021-04-17T02:37:59Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestToString -->
+        <test-method signature="testTestClone()[pri:0, instance:homework.ch11_13.PersonTest@6043cd28]" started-at="2021-04-17T02:37:59Z" name="testTestClone" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestClone -->
-        <test-method signature="testTestEquals()[pri:0, instance:homework.ch11_13.PersonTest@6043cd28]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testTestEquals()[pri:0, instance:homework.ch11_13.PersonTest@6043cd28]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestEquals -->
       </class> <!-- homework.ch11_13.PersonTest -->
     </test> <!-- D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/PersonTest.java -->
-    <test started-at="2021-04-15T13:26:20Z" name="D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/StudentTest.java" finished-at="2021-04-15T13:26:20Z" duration-ms="12">
+    <test started-at="2021-04-17T02:37:59Z" name="D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/StudentTest.java" finished-at="2021-04-17T02:37:59Z" duration-ms="12">
       <class name="homework.ch11_13.StudentTest">
-        <test-method signature="testSetStudentId(homework.ch11_13.p3.Student, int)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-15T13:26:20Z" name="testSetStudentId" data-provider="studentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[name: null, age: 0, studentId: 20170102, department: null, classNo: null]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[20170102]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSetStudentId -->
-        <test-method signature="testGetStudentId(homework.ch11_13.p3.Student, int)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-15T13:26:20Z" name="testGetStudentId" data-provider="studentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testGetStudentId(homework.ch11_13.p3.Student, int)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-17T02:37:59Z" name="testGetStudentId" data-provider="studentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,7 +59,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetStudentId -->
-        <test-method signature="testGetDepartment(homework.ch11_13.p3.Student, java.lang.String)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-15T13:26:20Z" name="testGetDepartment" data-provider="studentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testSetStudentId(homework.ch11_13.p3.Student, int)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-17T02:37:59Z" name="testSetStudentId" data-provider="studentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name: null, age: 0, studentId: 20170102, department: null, classNo: null]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20170102]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetStudentId -->
+        <test-method signature="testGetDepartment(homework.ch11_13.p3.Student, java.lang.String)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-17T02:37:59Z" name="testGetDepartment" data-provider="studentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,23 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDepartment -->
-        <test-method signature="testSetDepartment(homework.ch11_13.p3.Student, java.lang.String)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-15T13:26:20Z" name="testSetDepartment" data-provider="studentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[name: null, age: 0, studentId: 0, department: EE, classNo: null]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[EE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSetDepartment -->
-        <test-method signature="testTestToString(homework.ch11_13.p3.Student, [Ljava.lang.Object;)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-15T13:26:20Z" name="testTestToString" data-provider="studentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="5" status="PASS">
+        <test-method signature="testTestToString(homework.ch11_13.p3.Student, [Ljava.lang.Object;)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-17T02:37:59Z" name="testTestToString" data-provider="studentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,7 +107,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestToString -->
-        <test-method signature="testGetClassNo(homework.ch11_13.p3.Student, java.lang.String)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-15T13:26:20Z" name="testGetClassNo" data-provider="studentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testGetClassNo(homework.ch11_13.p3.Student, java.lang.String)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-17T02:37:59Z" name="testGetClassNo" data-provider="studentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -139,7 +123,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetClassNo -->
-        <test-method signature="testSetClassNo(homework.ch11_13.p3.Student, java.lang.String)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-15T13:26:20Z" name="testSetClassNo" data-provider="studentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testSetDepartment(homework.ch11_13.p3.Student, java.lang.String)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-17T02:37:59Z" name="testSetDepartment" data-provider="studentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name: null, age: 0, studentId: 0, department: EE, classNo: null]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetDepartment -->
+        <test-method signature="testSetClassNo(homework.ch11_13.p3.Student, java.lang.String)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-17T02:37:59Z" name="testSetClassNo" data-provider="studentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -155,7 +155,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetClassNo -->
-        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Student;, boolean)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" data-provider="studentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Student;, boolean)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" data-provider="studentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -171,55 +171,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestEquals -->
-        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Student;, boolean)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" data-provider="studentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Lhomework.ch11_13.p3.Student;@55a561cf]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTestEquals -->
-        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Student;, boolean)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" data-provider="studentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Lhomework.ch11_13.p3.Student;@3b938003]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTestEquals -->
-        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Student;, boolean)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" data-provider="studentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Lhomework.ch11_13.p3.Student;@3d299e3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTestEquals -->
-        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Student;, boolean)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" data-provider="studentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Student;, boolean)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" data-provider="studentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -235,7 +187,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestEquals -->
-        <test-method signature="testTestClone(homework.ch11_13.p3.Student, java.lang.Object)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-15T13:26:20Z" name="testTestClone" data-provider="studentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Student;, boolean)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" data-provider="studentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhomework.ch11_13.p3.Student;@55a561cf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestEquals -->
+        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Student;, boolean)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" data-provider="studentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhomework.ch11_13.p3.Student;@3b938003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestEquals -->
+        <test-method signature="testTestClone(homework.ch11_13.p3.Student, java.lang.Object)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-17T02:37:59Z" name="testTestClone" data-provider="studentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -249,7 +233,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestClone -->
-        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Student;, boolean)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" data-provider="studentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Student;, boolean)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" data-provider="studentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -265,7 +249,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestEquals -->
-        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Student;, boolean)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" data-provider="studentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Student;, boolean)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" data-provider="studentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -281,27 +265,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestEquals -->
-      </class> <!-- homework.ch11_13.StudentTest -->
-    </test> <!-- D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/StudentTest.java -->
-    <test started-at="2021-04-15T13:26:20Z" name="D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/FacultyTest.java" finished-at="2021-04-15T13:26:20Z" duration-ms="4">
-      <class name="homework.ch11_13.FacultyTest">
-        <test-method signature="testSetTitle(homework.ch11_13.p3.Faculty, java.lang.String)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-15T13:26:20Z" name="testSetTitle" data-provider="facultyDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Student;, boolean)[pri:0, instance:homework.ch11_13.StudentTest@43bd930a]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" data-provider="studentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[name: null, age: 0, facultyId: 0, title: Lecturer, email: null]]>
+                <![CDATA[[Lhomework.ch11_13.p3.Student;@3d299e3]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Lecturer]]>
+                <![CDATA[false]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSetTitle -->
-        <test-method signature="testGetFacultyId(homework.ch11_13.p3.Faculty, int)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-15T13:26:20Z" name="testGetFacultyId" data-provider="facultyDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        </test-method> <!-- testTestEquals -->
+      </class> <!-- homework.ch11_13.StudentTest -->
+    </test> <!-- D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/StudentTest.java -->
+    <test started-at="2021-04-17T02:37:59Z" name="D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/FacultyTest.java" finished-at="2021-04-17T02:37:59Z" duration-ms="5">
+      <class name="homework.ch11_13.FacultyTest">
+        <test-method signature="testGetFacultyId(homework.ch11_13.p3.Faculty, int)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-17T02:37:59Z" name="testGetFacultyId" data-provider="facultyDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -317,7 +301,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetFacultyId -->
-        <test-method signature="testGetTitle(homework.ch11_13.p3.Faculty, java.lang.String)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-15T13:26:20Z" name="testGetTitle" data-provider="facultyDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testSetTitle(homework.ch11_13.p3.Faculty, java.lang.String)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-17T02:37:59Z" name="testSetTitle" data-provider="facultyDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name: null, age: 0, facultyId: 0, title: Lecturer, email: null]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lecturer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetTitle -->
+        <test-method signature="testGetTitle(homework.ch11_13.p3.Faculty, java.lang.String)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-17T02:37:59Z" name="testGetTitle" data-provider="facultyDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -333,7 +333,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetTitle -->
-        <test-method signature="testSetFacultyId(homework.ch11_13.p3.Faculty, int)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-15T13:26:20Z" name="testSetFacultyId" data-provider="facultyDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testSetFacultyId(homework.ch11_13.p3.Faculty, int)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-17T02:37:59Z" name="testSetFacultyId" data-provider="facultyDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -349,39 +349,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetFacultyId -->
-        <test-method signature="testGetEmail(homework.ch11_13.p3.Faculty, java.lang.String)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-15T13:26:20Z" name="testGetEmail" data-provider="facultyDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[name: aaa, age: 20, facultyId: 1998000111, title: Professor, email: abc@qq.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abc@qq.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetEmail -->
-        <test-method signature="testSetEmail(homework.ch11_13.p3.Faculty, java.lang.String)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-15T13:26:20Z" name="testSetEmail" data-provider="facultyDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[name: null, age: 0, facultyId: 0, title: null, email: 123@qq.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123@qq.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSetEmail -->
-        <test-method signature="testTestToString(homework.ch11_13.p3.Faculty, [Ljava.lang.Object;)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-15T13:26:20Z" name="testTestToString" data-provider="facultyDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testTestToString(homework.ch11_13.p3.Faculty, [Ljava.lang.Object;)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-17T02:37:59Z" name="testTestToString" data-provider="facultyDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -397,55 +365,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestToString -->
-        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Faculty;, boolean)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" data-provider="facultyDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testGetEmail(homework.ch11_13.p3.Faculty, java.lang.String)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-17T02:37:59Z" name="testGetEmail" data-provider="facultyDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Lhomework.ch11_13.p3.Faculty;@5db45159]]>
+                <![CDATA[name: aaa, age: 20, facultyId: 1998000111, title: Professor, email: abc@qq.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[true]]>
+                <![CDATA[abc@qq.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTestEquals -->
-        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Faculty;, boolean)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" data-provider="facultyDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        </test-method> <!-- testGetEmail -->
+        <test-method signature="testSetEmail(homework.ch11_13.p3.Faculty, java.lang.String)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-17T02:37:59Z" name="testSetEmail" data-provider="facultyDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Lhomework.ch11_13.p3.Faculty;@37e547da]]>
+                <![CDATA[name: null, age: 0, facultyId: 0, title: null, email: 123@qq.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[true]]>
+                <![CDATA[123@qq.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTestEquals -->
-        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Faculty;, boolean)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" data-provider="facultyDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Lhomework.ch11_13.p3.Faculty;@2b6856dd]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTestEquals -->
-        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Faculty;, boolean)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" data-provider="facultyDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        </test-method> <!-- testSetEmail -->
+        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Faculty;, boolean)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" data-provider="facultyDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -461,7 +413,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestEquals -->
-        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Faculty;, boolean)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" data-provider="facultyDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Faculty;, boolean)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" data-provider="facultyDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -477,7 +429,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestEquals -->
-        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Faculty;, boolean)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" data-provider="facultyDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Faculty;, boolean)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" data-provider="facultyDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -493,7 +445,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestEquals -->
-        <test-method signature="testTestClone(homework.ch11_13.p3.Faculty, java.lang.Object)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-15T13:26:20Z" name="testTestClone" data-provider="facultyDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Faculty;, boolean)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" data-provider="facultyDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhomework.ch11_13.p3.Faculty;@5db45159]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestEquals -->
+        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Faculty;, boolean)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" data-provider="facultyDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhomework.ch11_13.p3.Faculty;@37e547da]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestEquals -->
+        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Faculty;, boolean)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" data-provider="facultyDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhomework.ch11_13.p3.Faculty;@2b6856dd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestEquals -->
+        <test-method signature="testTestClone(homework.ch11_13.p3.Faculty, java.lang.Object)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-17T02:37:59Z" name="testTestClone" data-provider="facultyDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -507,7 +507,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestClone -->
-        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Faculty;, boolean)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" data-provider="facultyDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Faculty;, boolean)[pri:0, instance:homework.ch11_13.FacultyTest@13eb8acf]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" data-provider="facultyDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -525,9 +525,9 @@
         </test-method> <!-- testTestEquals -->
       </class> <!-- homework.ch11_13.FacultyTest -->
     </test> <!-- D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/FacultyTest.java -->
-    <test started-at="2021-04-15T13:26:20Z" name="D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CourseTest.java" finished-at="2021-04-15T13:26:20Z" duration-ms="6">
+    <test started-at="2021-04-17T02:37:59Z" name="D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CourseTest.java" finished-at="2021-04-17T02:37:59Z" duration-ms="6">
       <class name="homework.ch11_13.CourseTest">
-        <test-method signature="testGetCourseName(homework.ch11_13.p3.Course, java.lang.String)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-15T13:26:20Z" name="testGetCourseName" data-provider="courseDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testGetCourseName(homework.ch11_13.p3.Course, java.lang.String)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-17T02:37:59Z" name="testGetCourseName" data-provider="courseDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -552,7 +552,7 @@ Teacher: name: James Gosling, age: 65, facultyId: 0, title: Professor, email: ht
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCourseName -->
-        <test-method signature="testRegister(homework.ch11_13.p3.Course, [Lhomework.ch11_13.p3.Person;)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-15T13:26:20Z" name="testRegister" data-provider="courseDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testRegister(homework.ch11_13.p3.Course, [Lhomework.ch11_13.p3.Person;)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-17T02:37:59Z" name="testRegister" data-provider="courseDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -577,7 +577,7 @@ Teacher: name: James Gosling, age: 65, facultyId: 0, title: Professor, email: ht
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegister -->
-        <test-method signature="testGetTeacher(homework.ch11_13.p3.Course, homework.ch11_13.p3.Person)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-15T13:26:20Z" name="testGetTeacher" data-provider="courseDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testGetTeacher(homework.ch11_13.p3.Course, homework.ch11_13.p3.Person)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-17T02:37:59Z" name="testGetTeacher" data-provider="courseDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -602,35 +602,7 @@ Teacher: name: James Gosling, age: 65, facultyId: 0, title: Professor, email: ht
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetTeacher -->
-        <test-method signature="testGetNumberOfStudent(homework.ch11_13.p3.Course, int)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-15T13:26:20Z" name="testGetNumberOfStudent" data-provider="courseDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Course: 
-{
-Course name: Java Language Programming, 
-Number of Students: 3, 
-Students: 
-{
-name: aaa, age: 20, studentId: 20170101, department: CS, classNo: CS1704, 
-name: bbb, age: 20, studentId: 20170102, department: CS, classNo: CS1705, 
-name: ccc, age: 20, studentId: 20170103, department: CS, classNo: CS1706, 
-}
-Teacher: name: James Gosling, age: 65, facultyId: 0, title: Professor, email: http://nighthacks.com/jag/bio/index.html
-}
-]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetNumberOfStudent -->
-        <test-method signature="testGetStudents(homework.ch11_13.p3.Course, [Lhomework.ch11_13.p3.Person;)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-15T13:26:20Z" name="testGetStudents" data-provider="courseDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testGetStudents(homework.ch11_13.p3.Course, [Lhomework.ch11_13.p3.Person;)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-17T02:37:59Z" name="testGetStudents" data-provider="courseDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -658,7 +630,7 @@ Teacher: name: James Gosling, age: 65, facultyId: 0, title: Professor, email: ht
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetStudents -->
-        <test-method signature="testUnregister(homework.ch11_13.p3.Course, [Lhomework.ch11_13.p3.Person;)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-15T13:26:20Z" name="testUnregister" data-provider="courseDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testUnregister(homework.ch11_13.p3.Course, [Lhomework.ch11_13.p3.Person;)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-17T02:37:59Z" name="testUnregister" data-provider="courseDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -686,7 +658,7 @@ Teacher: name: James Gosling, age: 65, facultyId: 0, title: Professor, email: ht
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUnregister -->
-        <test-method signature="testTestClone(homework.ch11_13.p3.Course, java.lang.Object)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-15T13:26:20Z" name="testTestClone" data-provider="courseDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testTestClone(homework.ch11_13.p3.Course, java.lang.Object)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-17T02:37:59Z" name="testTestClone" data-provider="courseDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -712,7 +684,7 @@ Teacher: name: James Gosling, age: 65, facultyId: 0, title: Professor, email: ht
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestClone -->
-        <test-method signature="testTestToString(homework.ch11_13.p3.Course, [Ljava.lang.String;)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-15T13:26:20Z" name="testTestToString" data-provider="courseDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="2" status="PASS">
+        <test-method signature="testTestToString(homework.ch11_13.p3.Course, [Ljava.lang.String;)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-17T02:37:59Z" name="testTestToString" data-provider="courseDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -739,7 +711,35 @@ Teacher: name: T1, age: 40, facultyId: 1, title: Professor, email: 123@qq.com
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestToString -->
-        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Course;, boolean)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" data-provider="courseDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testGetNumberOfStudent(homework.ch11_13.p3.Course, int)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-17T02:37:59Z" name="testGetNumberOfStudent" data-provider="courseDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Course: 
+{
+Course name: Java Language Programming, 
+Number of Students: 3, 
+Students: 
+{
+name: aaa, age: 20, studentId: 20170101, department: CS, classNo: CS1704, 
+name: bbb, age: 20, studentId: 20170102, department: CS, classNo: CS1705, 
+name: ccc, age: 20, studentId: 20170103, department: CS, classNo: CS1706, 
+}
+Teacher: name: James Gosling, age: 65, facultyId: 0, title: Professor, email: http://nighthacks.com/jag/bio/index.html
+}
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetNumberOfStudent -->
+        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Course;, boolean)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" data-provider="courseDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -755,39 +755,7 @@ Teacher: name: T1, age: 40, facultyId: 1, title: Professor, email: 123@qq.com
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestEquals -->
-        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Course;, boolean)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" data-provider="courseDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Lhomework.ch11_13.p3.Course;@1198b989]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTestEquals -->
-        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Course;, boolean)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" data-provider="courseDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Lhomework.ch11_13.p3.Course;@add0edd]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTestEquals -->
-        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Course;, boolean)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" data-provider="courseDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Course;, boolean)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" data-provider="courseDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -803,7 +771,39 @@ Teacher: name: T1, age: 40, facultyId: 1, title: Professor, email: 123@qq.com
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestEquals -->
-        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Course;, boolean)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" data-provider="courseDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Course;, boolean)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" data-provider="courseDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhomework.ch11_13.p3.Course;@1198b989]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestEquals -->
+        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Course;, boolean)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" data-provider="courseDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lhomework.ch11_13.p3.Course;@add0edd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestEquals -->
+        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Course;, boolean)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" data-provider="courseDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -819,7 +819,7 @@ Teacher: name: T1, age: 40, facultyId: 1, title: Professor, email: 123@qq.com
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestEquals -->
-        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Course;, boolean)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-15T13:26:20Z" name="testTestEquals" data-provider="courseDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testTestEquals([Lhomework.ch11_13.p3.Course;, boolean)[pri:0, instance:homework.ch11_13.CourseTest@365185bd]" started-at="2021-04-17T02:37:59Z" name="testTestEquals" data-provider="courseDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -838,28 +838,12 @@ Teacher: name: T1, age: 40, facultyId: 1, title: Professor, email: 123@qq.com
       </class> <!-- homework.ch11_13.CourseTest -->
     </test> <!-- D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CourseTest.java -->
   </suite> <!-- All Test Suite (0) -->
-  <suite started-at="2021-04-15T13:26:20Z" name="All Test Suite (1)" finished-at="2021-04-15T13:26:20Z" duration-ms="44">
+  <suite started-at="2021-04-17T02:37:59Z" name="All Test Suite (1)" finished-at="2021-04-17T02:37:59Z" duration-ms="44">
     <groups>
     </groups>
-    <test started-at="2021-04-15T13:26:20Z" name="D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CompositeComponentTest.java" finished-at="2021-04-15T13:26:20Z" duration-ms="9">
+    <test started-at="2021-04-17T02:37:59Z" name="D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CompositeComponentTest.java" finished-at="2021-04-17T02:37:59Z" duration-ms="9">
       <class name="homework.ch11_13.CompositeComponentTest">
-        <test-method signature="testGetPrice(homework.ch11_13.p4.Component, double)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-15T13:26:20Z" name="testGetPrice" data-provider="compositeComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CompositeComponent{childs=[]} Component{id=6, name='root', price=100.0}]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetPrice -->
-        <test-method signature="testGetPrice(homework.ch11_13.p4.Component, double)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-15T13:26:20Z" name="testGetPrice" data-provider="compositeComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testGetPrice(homework.ch11_13.p4.Component, double)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-17T02:37:59Z" name="testGetPrice" data-provider="compositeComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -875,7 +859,23 @@ Teacher: name: T1, age: 40, facultyId: 1, title: Professor, email: 123@qq.com
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPrice -->
-        <test-method signature="testGetPrice(homework.ch11_13.p4.Component, double)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-15T13:26:20Z" name="testGetPrice" data-provider="compositeComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testGetPrice(homework.ch11_13.p4.Component, double)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-17T02:37:59Z" name="testGetPrice" data-provider="compositeComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CompositeComponent{childs=[]} Component{id=6, name='root', price=100.0}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPrice -->
+        <test-method signature="testGetPrice(homework.ch11_13.p4.Component, double)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-17T02:37:59Z" name="testGetPrice" data-provider="compositeComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -891,7 +891,7 @@ Teacher: name: T1, age: 40, facultyId: 1, title: Professor, email: 123@qq.com
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPrice -->
-        <test-method signature="testAdd(homework.ch11_13.p4.Component, [Lhomework.ch11_13.p4.Component;)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-15T13:26:20Z" name="testAdd" data-provider="compositeComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testAdd(homework.ch11_13.p4.Component, [Lhomework.ch11_13.p4.Component;)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-17T02:37:59Z" name="testAdd" data-provider="compositeComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -907,7 +907,7 @@ Teacher: name: T1, age: 40, facultyId: 1, title: Professor, email: 123@qq.com
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdd -->
-        <test-method signature="testTestToString(homework.ch11_13.p4.Component, [Ljava.lang.String;)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-15T13:26:20Z" name="testTestToString" data-provider="compositeComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testTestToString(homework.ch11_13.p4.Component, [Ljava.lang.String;)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-17T02:37:59Z" name="testTestToString" data-provider="compositeComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -923,39 +923,7 @@ Teacher: name: T1, age: 40, facultyId: 1, title: Professor, email: 123@qq.com
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestToString -->
-        <test-method signature="testAdd(homework.ch11_13.p4.Component, [Lhomework.ch11_13.p4.Component;)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-15T13:26:20Z" name="testAdd" data-provider="compositeComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CompositeComponent{childs=[CompositeComponent{childs=[Component{id=0, name='aaa1', price=5.0}, Component{id=1, name='aaa2', price=10.0}, CompositeComponent{childs=[Component{id=2, name='aaa3', price=15.0}, Component{id=3, name='aaa4', price=25.0}]} Component{id=5, name='ccc2', price=10.0}]} Component{id=4, name='ccc1', price=10.0}]} Component{id=6, name='root', price=100.0}]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Lhomework.ch11_13.p4.Component;@2fd6b6c7]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAdd -->
-        <test-method signature="testAdd(homework.ch11_13.p4.Component, [Lhomework.ch11_13.p4.Component;)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-15T13:26:20Z" name="testAdd" data-provider="compositeComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CompositeComponent{childs=[Component{id=2, name='aaa3', price=15.0}, Component{id=3, name='aaa4', price=25.0}]} Component{id=5, name='ccc2', price=10.0}]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Lhomework.ch11_13.p4.Component;@184cf7cf]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAdd -->
-        <test-method signature="testCalcPrice(homework.ch11_13.p4.Component, double)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-15T13:26:20Z" name="testCalcPrice" data-provider="compositeComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testCalcPrice(homework.ch11_13.p4.Component, double)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-17T02:37:59Z" name="testCalcPrice" data-provider="compositeComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -971,7 +939,23 @@ Teacher: name: T1, age: 40, facultyId: 1, title: Professor, email: 123@qq.com
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCalcPrice -->
-        <test-method signature="testCalcPrice(homework.ch11_13.p4.Component, double)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-15T13:26:20Z" name="testCalcPrice" data-provider="compositeComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testAdd(homework.ch11_13.p4.Component, [Lhomework.ch11_13.p4.Component;)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-17T02:37:59Z" name="testAdd" data-provider="compositeComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CompositeComponent{childs=[CompositeComponent{childs=[Component{id=0, name='aaa1', price=5.0}, Component{id=1, name='aaa2', price=10.0}, CompositeComponent{childs=[Component{id=2, name='aaa3', price=15.0}, Component{id=3, name='aaa4', price=25.0}]} Component{id=5, name='ccc2', price=10.0}]} Component{id=4, name='ccc1', price=10.0}]} Component{id=6, name='root', price=100.0}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lhomework.ch11_13.p4.Component;@2fd6b6c7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method signature="testCalcPrice(homework.ch11_13.p4.Component, double)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-17T02:37:59Z" name="testCalcPrice" data-provider="compositeComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -987,7 +971,23 @@ Teacher: name: T1, age: 40, facultyId: 1, title: Professor, email: 123@qq.com
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCalcPrice -->
-        <test-method signature="testRemove(homework.ch11_13.p4.Component, [Lhomework.ch11_13.p4.Component;)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-15T13:26:20Z" name="testRemove" data-provider="compositeComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testAdd(homework.ch11_13.p4.Component, [Lhomework.ch11_13.p4.Component;)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-17T02:37:59Z" name="testAdd" data-provider="compositeComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CompositeComponent{childs=[Component{id=2, name='aaa3', price=15.0}, Component{id=3, name='aaa4', price=25.0}]} Component{id=5, name='ccc2', price=10.0}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lhomework.ch11_13.p4.Component;@184cf7cf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method signature="testRemove(homework.ch11_13.p4.Component, [Lhomework.ch11_13.p4.Component;)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-17T02:37:59Z" name="testRemove" data-provider="compositeComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1003,55 +1003,7 @@ Teacher: name: T1, age: 40, facultyId: 1, title: Professor, email: 123@qq.com
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRemove -->
-        <test-method signature="testCalcPrice(homework.ch11_13.p4.Component, double)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-15T13:26:20Z" name="testCalcPrice" data-provider="compositeComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CompositeComponent{childs=[Component{id=0, name='aaa1', price=5.0}, Component{id=1, name='aaa2', price=10.0}, CompositeComponent{childs=[Component{id=2, name='aaa3', price=15.0}, Component{id=3, name='aaa4', price=25.0}]} Component{id=5, name='ccc2', price=10.0}]} Component{id=4, name='ccc1', price=10.0}]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[55.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCalcPrice -->
-        <test-method signature="testRemove(homework.ch11_13.p4.Component, [Lhomework.ch11_13.p4.Component;)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-15T13:26:20Z" name="testRemove" data-provider="compositeComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CompositeComponent{childs=[]} Component{id=5, name='ccc2', price=10.0}]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Lhomework.ch11_13.p4.Component;@5bfa9431]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRemove -->
-        <test-method signature="testRemove(homework.ch11_13.p4.Component, [Lhomework.ch11_13.p4.Component;)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-15T13:26:20Z" name="testRemove" data-provider="compositeComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CompositeComponent{childs=[]} Component{id=4, name='ccc1', price=10.0}]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Lhomework.ch11_13.p4.Component;@5db250b4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRemove -->
-        <test-method signature="testIterator(homework.ch11_13.p4.Component, java.lang.Class)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-15T13:26:20Z" name="testIterator" data-provider="compositeComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testIterator(homework.ch11_13.p4.Component, java.lang.Class)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-17T02:37:59Z" name="testIterator" data-provider="compositeComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1067,11 +1019,59 @@ Teacher: name: T1, age: 40, facultyId: 1, title: Professor, email: 123@qq.com
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIterator -->
+        <test-method signature="testCalcPrice(homework.ch11_13.p4.Component, double)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-17T02:37:59Z" name="testCalcPrice" data-provider="compositeComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CompositeComponent{childs=[Component{id=0, name='aaa1', price=5.0}, Component{id=1, name='aaa2', price=10.0}, CompositeComponent{childs=[Component{id=2, name='aaa3', price=15.0}, Component{id=3, name='aaa4', price=25.0}]} Component{id=5, name='ccc2', price=10.0}]} Component{id=4, name='ccc1', price=10.0}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalcPrice -->
+        <test-method signature="testRemove(homework.ch11_13.p4.Component, [Lhomework.ch11_13.p4.Component;)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-17T02:37:59Z" name="testRemove" data-provider="compositeComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CompositeComponent{childs=[]} Component{id=5, name='ccc2', price=10.0}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lhomework.ch11_13.p4.Component;@5bfa9431]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove -->
+        <test-method signature="testRemove(homework.ch11_13.p4.Component, [Lhomework.ch11_13.p4.Component;)[pri:0, instance:homework.ch11_13.CompositeComponentTest@10dba097]" started-at="2021-04-17T02:37:59Z" name="testRemove" data-provider="compositeComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CompositeComponent{childs=[]} Component{id=4, name='ccc1', price=10.0}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lhomework.ch11_13.p4.Component;@5db250b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove -->
       </class> <!-- homework.ch11_13.CompositeComponentTest -->
     </test> <!-- D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CompositeComponentTest.java -->
-    <test started-at="2021-04-15T13:26:20Z" name="D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/AtomicComponentTest.java" finished-at="2021-04-15T13:26:20Z" duration-ms="3">
+    <test started-at="2021-04-17T02:37:59Z" name="D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/AtomicComponentTest.java" finished-at="2021-04-17T02:37:59Z" duration-ms="3">
       <class name="homework.ch11_13.AtomicComponentTest">
-        <test-method signature="testGetId(homework.ch11_13.p4.Component, int)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-15T13:26:20Z" name="testGetId" data-provider="atomicComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testGetId(homework.ch11_13.p4.Component, int)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-17T02:37:59Z" name="testGetId" data-provider="atomicComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1087,23 +1087,7 @@ Teacher: name: T1, age: 40, facultyId: 1, title: Professor, email: 123@qq.com
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetId -->
-        <test-method signature="testSetId(homework.ch11_13.p4.Component, int)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-15T13:26:20Z" name="testSetId" data-provider="atomicComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Component{id=10, name='', price=0.0}]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSetId -->
-        <test-method signature="testSetPrice(homework.ch11_13.p4.Component, double)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-15T13:26:20Z" name="testSetPrice" data-provider="atomicComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testSetPrice(homework.ch11_13.p4.Component, double)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-17T02:37:59Z" name="testSetPrice" data-provider="atomicComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1119,7 +1103,23 @@ Teacher: name: T1, age: 40, facultyId: 1, title: Professor, email: 123@qq.com
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetPrice -->
-        <test-method signature="testSetName(homework.ch11_13.p4.Component, java.lang.String)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-15T13:26:20Z" name="testSetName" data-provider="atomicComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testSetId(homework.ch11_13.p4.Component, int)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-17T02:37:59Z" name="testSetId" data-provider="atomicComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Component{id=10, name='', price=0.0}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetId -->
+        <test-method signature="testSetName(homework.ch11_13.p4.Component, java.lang.String)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-17T02:37:59Z" name="testSetName" data-provider="atomicComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1135,7 +1135,7 @@ Teacher: name: T1, age: 40, facultyId: 1, title: Professor, email: 123@qq.com
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetName -->
-        <test-method signature="testTestToString(homework.ch11_13.p4.Component, [Ljava.lang.String;)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-15T13:26:20Z" name="testTestToString" data-provider="atomicComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testTestToString(homework.ch11_13.p4.Component, [Ljava.lang.String;)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-17T02:37:59Z" name="testTestToString" data-provider="atomicComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1151,7 +1151,7 @@ Teacher: name: T1, age: 40, facultyId: 1, title: Professor, email: 123@qq.com
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestToString -->
-        <test-method signature="testGetPrice(homework.ch11_13.p4.Component, double)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-15T13:26:20Z" name="testGetPrice" data-provider="atomicComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testGetPrice(homework.ch11_13.p4.Component, double)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-17T02:37:59Z" name="testGetPrice" data-provider="atomicComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1167,7 +1167,7 @@ Teacher: name: T1, age: 40, facultyId: 1, title: Professor, email: 123@qq.com
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPrice -->
-        <test-method signature="testGetName(homework.ch11_13.p4.Component, java.lang.String)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-15T13:26:20Z" name="testGetName" data-provider="atomicComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testGetName(homework.ch11_13.p4.Component, java.lang.String)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-17T02:37:59Z" name="testGetName" data-provider="atomicComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1183,7 +1183,7 @@ Teacher: name: T1, age: 40, facultyId: 1, title: Professor, email: 123@qq.com
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetName -->
-        <test-method signature="testRemove(homework.ch11_13.p4.Component, homework.ch11_13.p4.Component)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-15T13:26:20Z" name="testRemove" data-provider="atomicComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testRemove(homework.ch11_13.p4.Component, homework.ch11_13.p4.Component)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-17T02:37:59Z" name="testRemove" data-provider="atomicComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1232,7 +1232,7 @@ at org.testng.TestNG.main(TestNG.java:1323)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRemove -->
-        <test-method signature="testCalcPrice(homework.ch11_13.p4.Component, double)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-15T13:26:20Z" name="testCalcPrice" data-provider="atomicComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testCalcPrice(homework.ch11_13.p4.Component, double)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-17T02:37:59Z" name="testCalcPrice" data-provider="atomicComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1248,23 +1248,7 @@ at org.testng.TestNG.main(TestNG.java:1323)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCalcPrice -->
-        <test-method signature="testIterator(homework.ch11_13.p4.Component, java.lang.Class)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-15T13:26:20Z" name="testIterator" data-provider="atomicComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Component{id=1, name='key board', price=5.0}]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[class homework.ch11_13.p4.NullIterator]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIterator -->
-        <test-method signature="testAdd(homework.ch11_13.p4.Component, homework.ch11_13.p4.Component)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-15T13:26:20Z" name="testAdd" data-provider="atomicComponentDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testAdd(homework.ch11_13.p4.Component, homework.ch11_13.p4.Component)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-17T02:37:59Z" name="testAdd" data-provider="atomicComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1313,11 +1297,27 @@ at org.testng.TestNG.main(TestNG.java:1323)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdd -->
+        <test-method signature="testIterator(homework.ch11_13.p4.Component, java.lang.Class)[pri:0, instance:homework.ch11_13.AtomicComponentTest@5c072e3f]" started-at="2021-04-17T02:37:59Z" name="testIterator" data-provider="atomicComponentDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Component{id=1, name='key board', price=5.0}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[class homework.ch11_13.p4.NullIterator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIterator -->
       </class> <!-- homework.ch11_13.AtomicComponentTest -->
     </test> <!-- D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/AtomicComponentTest.java -->
-    <test started-at="2021-04-15T13:26:20Z" name="D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/ComponentListTest.java" finished-at="2021-04-15T13:26:20Z" duration-ms="1">
+    <test started-at="2021-04-17T02:37:59Z" name="D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/ComponentListTest.java" finished-at="2021-04-17T02:37:59Z" duration-ms="1">
       <class name="homework.ch11_13.ComponentListTest">
-        <test-method signature="testNext(homework.ch11_13.p4.Iterator, [Lhomework.ch11_13.p4.Component;)[pri:0, instance:homework.ch11_13.ComponentListTest@4cf4d528]" started-at="2021-04-15T13:26:20Z" name="testNext" data-provider="componentListDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testNext(homework.ch11_13.p4.Iterator, [Lhomework.ch11_13.p4.Component;)[pri:0, instance:homework.ch11_13.ComponentListTest@4cf4d528]" started-at="2021-04-17T02:37:59Z" name="testNext" data-provider="componentListDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1333,7 +1333,7 @@ at org.testng.TestNG.main(TestNG.java:1323)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNext -->
-        <test-method signature="testNext(homework.ch11_13.p4.Iterator, [Lhomework.ch11_13.p4.Component;)[pri:0, instance:homework.ch11_13.ComponentListTest@4cf4d528]" started-at="2021-04-15T13:26:20Z" name="testNext" data-provider="componentListDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testNext(homework.ch11_13.p4.Iterator, [Lhomework.ch11_13.p4.Component;)[pri:0, instance:homework.ch11_13.ComponentListTest@4cf4d528]" started-at="2021-04-17T02:37:59Z" name="testNext" data-provider="componentListDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1349,7 +1349,7 @@ at org.testng.TestNG.main(TestNG.java:1323)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNext -->
-        <test-method signature="testHasNext(homework.ch11_13.p4.Iterator, homework.ch11_13.p4.Iterator)[pri:0, instance:homework.ch11_13.ComponentListTest@4cf4d528]" started-at="2021-04-15T13:26:20Z" name="testHasNext" data-provider="componentListDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testHasNext(homework.ch11_13.p4.Iterator, homework.ch11_13.p4.Iterator)[pri:0, instance:homework.ch11_13.ComponentListTest@4cf4d528]" started-at="2021-04-17T02:37:59Z" name="testHasNext" data-provider="componentListDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1367,9 +1367,9 @@ at org.testng.TestNG.main(TestNG.java:1323)
         </test-method> <!-- testHasNext -->
       </class> <!-- homework.ch11_13.ComponentListTest -->
     </test> <!-- D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/ComponentListTest.java -->
-    <test started-at="2021-04-15T13:26:20Z" name="D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CompositeIteratorTest.java" finished-at="2021-04-15T13:26:20Z" duration-ms="1">
+    <test started-at="2021-04-17T02:37:59Z" name="D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CompositeIteratorTest.java" finished-at="2021-04-17T02:37:59Z" duration-ms="1">
       <class name="homework.ch11_13.CompositeIteratorTest">
-        <test-method signature="testHasNext(homework.ch11_13.p4.Component, [Lhomework.ch11_13.p4.Component;)[pri:0, instance:homework.ch11_13.CompositeIteratorTest@df27fae]" started-at="2021-04-15T13:26:20Z" name="testHasNext" data-provider="compositeIteratorDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testHasNext(homework.ch11_13.p4.Component, [Lhomework.ch11_13.p4.Component;)[pri:0, instance:homework.ch11_13.CompositeIteratorTest@df27fae]" started-at="2021-04-17T02:37:59Z" name="testHasNext" data-provider="compositeIteratorDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1385,7 +1385,7 @@ at org.testng.TestNG.main(TestNG.java:1323)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHasNext -->
-        <test-method signature="testNext(homework.ch11_13.p4.Component, [Lhomework.ch11_13.p4.Component;)[pri:0, instance:homework.ch11_13.CompositeIteratorTest@df27fae]" started-at="2021-04-15T13:26:20Z" name="testNext" data-provider="compositeIteratorDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testNext(homework.ch11_13.p4.Component, [Lhomework.ch11_13.p4.Component;)[pri:0, instance:homework.ch11_13.CompositeIteratorTest@df27fae]" started-at="2021-04-17T02:37:59Z" name="testNext" data-provider="compositeIteratorDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1403,9 +1403,9 @@ at org.testng.TestNG.main(TestNG.java:1323)
         </test-method> <!-- testNext -->
       </class> <!-- homework.ch11_13.CompositeIteratorTest -->
     </test> <!-- D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/CompositeIteratorTest.java -->
-    <test started-at="2021-04-15T13:26:20Z" name="D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/NullIteratorTest.java" finished-at="2021-04-15T13:26:20Z" duration-ms="1">
+    <test started-at="2021-04-17T02:37:59Z" name="D:/IdeaWorkspace/TestNGDemo/test/homework/ch11_13/NullIteratorTest.java" finished-at="2021-04-17T02:37:59Z" duration-ms="1">
       <class name="homework.ch11_13.NullIteratorTest">
-        <test-method signature="testHasNext(homework.ch11_13.p4.Iterator)[pri:0, instance:homework.ch11_13.NullIteratorTest@5c18298f]" started-at="2021-04-15T13:26:20Z" name="testHasNext" data-provider="nullIteratorDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testHasNext(homework.ch11_13.p4.Iterator)[pri:0, instance:homework.ch11_13.NullIteratorTest@5c18298f]" started-at="2021-04-17T02:37:59Z" name="testHasNext" data-provider="nullIteratorDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1416,7 +1416,7 @@ at org.testng.TestNG.main(TestNG.java:1323)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHasNext -->
-        <test-method signature="testNext(homework.ch11_13.p4.Iterator)[pri:0, instance:homework.ch11_13.NullIteratorTest@5c18298f]" started-at="2021-04-15T13:26:20Z" name="testNext" data-provider="nullIteratorDataProvider" finished-at="2021-04-15T13:26:20Z" duration-ms="0" status="PASS">
+        <test-method signature="testNext(homework.ch11_13.p4.Iterator)[pri:0, instance:homework.ch11_13.NullIteratorTest@5c18298f]" started-at="2021-04-17T02:37:59Z" name="testNext" data-provider="nullIteratorDataProvider" finished-at="2021-04-17T02:37:59Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
