@@ -3,11 +3,11 @@ package homework.ch19.work1;
 /**
  * 数组迭代器
  */
-class  ArrayIterator implements Iterator{
+class  ArrayIterator<T> implements Iterator{
     private int pos = 0;
-    private Object[] a = null;
+    private T[] a = null;
 
-    public ArrayIterator(Object[] array){
+    public ArrayIterator(T[] array){
         a = array;
     }
 
@@ -17,9 +17,9 @@ class  ArrayIterator implements Iterator{
     }
 
     @Override
-    public Object next() {
+    public T next() {
         if(hasNext()){
-            Object c = a[pos];
+            T c = a[pos];
             pos ++;
             return c;
         }

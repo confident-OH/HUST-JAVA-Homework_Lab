@@ -4,17 +4,17 @@ package homework.ch19.work1;
 /**
  * 容器类，内部用Object[]保存元素
  */
-class Container {
-    private Object[] elements;
+class Container<T> {
+    private T[] elements;
     private int elementsCount = 0;
     private int size = 0;
 
     public Container(int size){
-        elements = new Object[size];
+        elements = (T[]) new Object[size];
         this.size = size;
     }
 
-    public boolean add(Object e){
+    public boolean add(T e){
         if(elementsCount < size){
             elements[elementsCount ++] = e;
             return true;
@@ -29,6 +29,6 @@ class Container {
      * @return
      */
     public Iterator iterator(){
-        return new ArrayIterator(elements);
+        return new ArrayIterator<T>(elements);
     }
 }
