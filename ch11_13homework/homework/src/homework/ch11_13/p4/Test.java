@@ -12,6 +12,5 @@ public class Test {
             System.out.println("id: " + c.getId() + ", name: " +
                     c.getName() + ", price:" + c.getPrice());
         }
-
     }
 }

@@ -1,26 +1,30 @@
 package hust.cs.javacourse.search.index.impl;
 
-import hust.cs.javacourse.search.index.AbstractDocument;
-import hust.cs.javacourse.search.index.AbstractIndex;
-import hust.cs.javacourse.search.index.AbstractPostingList;
-import hust.cs.javacourse.search.index.AbstractTerm;
-import java.io.File;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.util.Set;
+import hust.cs.javacourse.search.index.*;
+
+import java.io.*;
+import java.util.*;
 
 /**
  * AbstractIndex的具体实现类
  */
 public class Index extends AbstractIndex {
+
     /**
-     * 返回索引的字符串表示
+     * 返回termToPostingListMapping
      *
      * @return 索引的字符串表示
      */
     @Override
     public String toString() {
-        return null;
+        StringBuffer curString = new StringBuffer();
+        for (AbstractTerm termList : termToPostingListMapping.keySet()) {
+            curString.append(termList.toString());
+            curString.append(":");
+            curString.append(termToPostingListMapping.get(termList).toString());
+            curString.append("\n");
+        }
+        return curString.toString();
     }
 
     /**
@@ -30,7 +34,31 @@ public class Index extends AbstractIndex {
      */
     @Override
     public void addDocument(AbstractDocument document) {
-
+        docIdToDocPathMapping.put(document.getDocId(), document.getDocPath()); //增加docId-Path对
+        List<AbstractTermTuple> curTermTuple = document.getTuples();
+        for (AbstractTermTuple a : curTermTuple) {
+            Term curTerm = (Term) a.term;
+            PostingList curPList = new PostingList();
+            if (termToPostingListMapping.containsKey(curTerm)) {
+                //判断在倒挂索引中是否已存在该term
+                curPList = (PostingList) termToPostingListMapping.get(curTerm);
+            }
+            Posting curPosting = new Posting();
+            if (curPList.indexOf(document.getDocId()) != -1) {
+                curPosting = (Posting) curPList.get(curPList.indexOf(document.getDocId()));
+                curPosting.setFreq(curPosting.getFreq() + 1);
+                List<Integer> positions = curPosting.getPositions();
+                positions.add(a.curPos);
+            } else {
+                curPosting.setDocId(document.getDocId());
+                curPosting.setFreq(1);
+                List<Integer> positions = new ArrayList<>();
+                positions.add(a.curPos);
+                curPosting.setPositions(positions);
+            }
+            curPList.add(curPosting);
+            termToPostingListMapping.put(curTerm, curPList);
+        }
     }
 
     /**
@@ -41,7 +69,11 @@ public class Index extends AbstractIndex {
      */
     @Override
     public void load(File file) {
-
+        try {
+            readObject(new ObjectInputStream(new FileInputStream(file)));
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
     }
 
     /**
@@ -52,7 +84,11 @@ public class Index extends AbstractIndex {
      */
     @Override
     public void save(File file) {
-
+        try {
+            writeObject(new ObjectOutputStream(new FileOutputStream(file)));
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
     }
 
     /**
@@ -63,7 +99,7 @@ public class Index extends AbstractIndex {
      */
     @Override
     public AbstractPostingList search(AbstractTerm term) {
-        return null;
+        return this.termToPostingListMapping.get(term);
     }
 
     /**
@@ -73,7 +109,7 @@ public class Index extends AbstractIndex {
      */
     @Override
     public Set<AbstractTerm> getDictionary() {
-        return null;
+        return termToPostingListMapping.keySet();
     }
 
     /**
@@ -86,7 +122,10 @@ public class Index extends AbstractIndex {
      */
     @Override
     public void optimize() {
-
+        for (AbstractTerm abstractTerm : this.getDictionary()) {
+            PostingList curPostingList = (PostingList) termToPostingListMapping.get(abstractTerm);
+            curPostingList.sort();
+        }
     }
 
     /**
@@ -97,7 +136,7 @@ public class Index extends AbstractIndex {
      */
     @Override
     public String getDocName(int docId) {
-        return null;
+        return this.docIdToDocPathMapping.get(docId);
     }
 
     /**
@@ -107,7 +146,22 @@ public class Index extends AbstractIndex {
      */
     @Override
     public void writeObject(ObjectOutputStream out) {
-
+        try {
+            int size = termToPostingListMapping.size();
+            out.writeObject(size);
+            size = docIdToDocPathMapping.size();
+            out.writeObject(size);
+            for (AbstractTerm term : termToPostingListMapping.keySet()) {
+                out.writeObject(term);
+                out.writeObject(termToPostingListMapping.get(term));
+            }
+            for (Integer docId : docIdToDocPathMapping.keySet()) {
+                out.writeObject(docId);
+                out.writeObject(docIdToDocPathMapping.get(docId));
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     /**
@@ -117,6 +171,23 @@ public class Index extends AbstractIndex {
      */
     @Override
     public void readObject(ObjectInputStream in) {
-
+        try {
+            this.docIdToDocPathMapping = new TreeMap<>();
+            this.termToPostingListMapping = new TreeMap<AbstractTerm, AbstractPostingList>();
+            Integer size1 = (Integer) in.readObject();
+            Integer size2 = (Integer) in.readObject();
+            for (int i = 0; i < size1; i++) {
+                AbstractTerm curTerm = (Term) in.readObject();
+                AbstractPostingList curPostingList = (PostingList) in.readObject();
+                this.termToPostingListMapping.put(curTerm, curPostingList);
+            }
+            for (int i = 0; i < size2; i++) {
+                Integer curDocId = (Integer) in.readObject();
+                String curDocPath = (String) in.readObject();
+                this.docIdToDocPathMapping.put(curDocId, curDocPath);
+            }
+        } catch (IOException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 }

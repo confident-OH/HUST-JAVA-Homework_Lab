@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/PostingTest.java(failed)">
+    <classes>
+      <class name="hust.cs.javacourse.search.index.PostingTest">
+        <methods>
+          <include name="testSetDocId"/>
+          <include name="testSort"/>
+          <include name="testSetPositions"/>
+          <include name="testCompareTo"/>
+          <include name="testTestEquals"/>
+          <include name="testGetFreq"/>
+          <include name="testWriteObject"/>
+          <include name="beforeSuite"/>
+          <include name="testGetPositions"/>
+          <include name="testReadObject"/>
+          <include name="testTestToString"/>
+          <include name="testGetDocId"/>
+          <include name="testSetFreq"/>
+        </methods>
+      </class> <!-- hust.cs.javacourse.search.index.PostingTest -->
+    </classes>
+  </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/PostingTest.java(failed) -->
+  <test thread-count="5" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/PostingListTest.java(failed)">
+    <classes>
+      <class name="hust.cs.javacourse.search.index.PostingListTest">
+        <methods>
+          <include name="testAdd"/>
+          <include name="testIndexOf"/>
+          <include name="testTestIndexOf"/>
+          <include name="testWriteObject"/>
+          <include name="testGet"/>
+          <include name="testContains"/>
+          <include name="testSort"/>
+          <include name="testIsEmpty"/>
+          <include name="testSize"/>
+          <include name="testTestToString"/>
+          <include name="beforeSuite"/>
+          <include name="testReadObject"/>
+          <include name="testTestRemove"/>
+          <include name="testTestAdd"/>
+          <include name="testClear"/>
+          <include name="testRemove"/>
+        </methods>
+      </class> <!-- hust.cs.javacourse.search.index.PostingListTest -->
+    </classes>
+  </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/PostingListTest.java(failed) -->
+  <test thread-count="5" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/DocumentTest.java(failed)">
+    <classes>
+      <class name="hust.cs.javacourse.search.index.DocumentTest">
+        <methods>
+          <include name="testContains"/>
+          <include name="testGetTuples"/>
+          <include name="testAddTuple"/>
+          <include name="testGetDocPath"/>
+          <include name="testGetDocId"/>
+          <include name="testGetTuple"/>
+          <include name="testTestToString"/>
+          <include name="testGetTupleSize"/>
+        </methods>
+      </class> <!-- hust.cs.javacourse.search.index.DocumentTest -->
+    </classes>
+  </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/DocumentTest.java(failed) -->
+  <test thread-count="5" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/parse/TermTupleScannerTest.java(failed)">
+    <classes>
+      <class name="hust.cs.javacourse.search.parse.TermTupleScannerTest">
+        <methods>
+          <include name="testNext"/>
+        </methods>
+      </class> <!-- hust.cs.javacourse.search.parse.TermTupleScannerTest -->
+    </classes>
+  </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/parse/TermTupleScannerTest.java(failed) -->
+  <test thread-count="5" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/parse/StopWordTermTupleFilterTest.java(failed)">
+    <classes>
+      <class name="hust.cs.javacourse.search.parse.StopWordTermTupleFilterTest">
+        <methods>
+          <include name="testNext"/>
+        </methods>
+      </class> <!-- hust.cs.javacourse.search.parse.StopWordTermTupleFilterTest -->
+    </classes>
+  </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/parse/StopWordTermTupleFilterTest.java(failed) -->
+  <test thread-count="5" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/parse/PatternTermTupleFilterTest.java(failed)">
+    <classes>
+      <class name="hust.cs.javacourse.search.parse.PatternTermTupleFilterTest">
+        <methods>
+          <include name="testNext"/>
+        </methods>
+      </class> <!-- hust.cs.javacourse.search.parse.PatternTermTupleFilterTest -->
+    </classes>
+  </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/parse/PatternTermTupleFilterTest.java(failed) -->
+  <test thread-count="5" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/parse/LengthTermTupleFilterTest.java(failed)">
+    <classes>
+      <class name="hust.cs.javacourse.search.parse.LengthTermTupleFilterTest">
+        <methods>
+          <include name="testNext"/>
+        </methods>
+      </class> <!-- hust.cs.javacourse.search.parse.LengthTermTupleFilterTest -->
+    </classes>
+  </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/parse/LengthTermTupleFilterTest.java(failed) -->
+  <test thread-count="5" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/parse/ScannerFilterAllInOneTest.java(failed)">
+    <classes>
+      <class name="hust.cs.javacourse.search.parse.ScannerFilterAllInOneTest">
+        <methods>
+          <include name="testNext"/>
+        </methods>
+      </class> <!-- hust.cs.javacourse.search.parse.ScannerFilterAllInOneTest -->
+    </classes>
+  </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/parse/ScannerFilterAllInOneTest.java(failed) -->
+  <test thread-count="5" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/DocumentBuilderTest.java(failed)">
+    <classes>
+      <class name="hust.cs.javacourse.search.index.DocumentBuilderTest">
+        <methods>
+          <include name="testTestBuild" invocation-numbers="0 1"/>
+          <include name="testBuild" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- hust.cs.javacourse.search.index.DocumentBuilderTest -->
+    </classes>
+  </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/DocumentBuilderTest.java(failed) -->
+  <test thread-count="5" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/IndexTest.java(failed)">
+    <classes>
+      <class name="hust.cs.javacourse.search.index.IndexTest">
+        <methods>
+          <include name="testLoad" invocation-numbers="0"/>
+          <include name="testSave" invocation-numbers="0"/>
+          <include name="testTestToString"/>
+          <include name="testAddDocument"/>
+          <include name="testGetDictionary"/>
+          <include name="testGetDocName" invocation-numbers="0"/>
+          <include name="testOptimize" invocation-numbers="0"/>
+          <include name="testSearch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- hust.cs.javacourse.search.index.IndexTest -->
+    </classes>
+  </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/IndexTest.java(failed) -->
+  <test thread-count="5" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/IndexBuilderTest.java(failed)">
+    <classes>
+      <class name="hust.cs.javacourse.search.index.IndexBuilderTest">
+        <methods>
+          <include name="testBuildIndex" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- hust.cs.javacourse.search.index.IndexBuilderTest -->
+    </classes>
+  </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/index/IndexBuilderTest.java(failed) -->
+  <test thread-count="5" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/query/HitTest.java(failed)">
+    <classes>
+      <class name="hust.cs.javacourse.search.query.HitTest">
+        <methods>
+          <include name="testSetContent"/>
+          <include name="testGetTermPostingMapping"/>
+          <include name="testGetDocId"/>
+          <include name="testTestToString"/>
+          <include name="testCompareTo"/>
+          <include name="testGetDocPath"/>
+          <include name="testGetScore"/>
+          <include name="testSetScore"/>
+          <include name="testGetContent"/>
+        </methods>
+      </class> <!-- hust.cs.javacourse.search.query.HitTest -->
+    </classes>
+  </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/query/HitTest.java(failed) -->
+  <test thread-count="5" name="D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/query/IndexSearcherTest.java(failed)">
+    <classes>
+      <class name="hust.cs.javacourse.search.query.IndexSearcherTest">
+        <methods>
+          <include name="testTestSearch"/>
+          <include name="testSearch"/>
+        </methods>
+      </class> <!-- hust.cs.javacourse.search.query.IndexSearcherTest -->
+    </classes>
+  </test> <!-- D:/IdeaWorkspace/SeachEngine/test/hust/cs/javacourse/search/query/IndexSearcherTest.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

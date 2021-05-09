@@ -4,6 +4,7 @@ import hust.cs.javacourse.search.index.AbstractIndex;
 import hust.cs.javacourse.search.index.AbstractTerm;
 import hust.cs.javacourse.search.index.impl.Index;
 
+
 /**
  * <pre>
  *  AbstractIndexSearcher是检索具体实现的抽象类
@@ -23,7 +24,7 @@ public abstract class AbstractIndexSearcher {
         /**
          * 与,即多个检索词必须都在命中文档里出现
          */
-        ADN,
+        AND,
         /**
          * 或, 即任意一个检索词在命中文档里出现
          */

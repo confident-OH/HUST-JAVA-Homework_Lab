@@ -1,4 +1,7 @@
 package homework.ch11_13.p2;
+
+import java.io.Serializable;
+
 /**
  * 任务接口
  * @author crackryan

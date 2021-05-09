@@ -1,6 +1,7 @@
 package homework.ch11_13.p4;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class CompositeIterator implements Iterator{
     protected ArrayList<Iterator> iterators;
@@ -8,6 +9,9 @@ public class CompositeIterator implements Iterator{
     public CompositeIterator(Iterator iterator) {
         iterators = new ArrayList<Iterator>();
         iterators.add(iterator);
+    }
+    public CompositeIterator(List<Iterator> iterators){
+        this.iterators = new ArrayList<Iterator>(iterators);
     }
 
     @Override
